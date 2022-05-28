@@ -40,7 +40,7 @@ public class DictionaryDemo {
             String key = entry.getKey();
             String value = entry.getValue();
 
-            if (key.toLowerCase().contains(str))
+            if (key.toLowerCase().startsWith(str))
                 System.out.println(key + value);
         }
     }
